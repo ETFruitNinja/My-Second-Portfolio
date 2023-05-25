@@ -4,16 +4,16 @@
 import React, { useState } from 'react';
 
 // import permanent components
-import Header from './Header';
+// import Header from './Header';
 // TODO: do we need navigation here, or does that go inside Header.js?
 import Navigation from './Navigation';
-import Footer from './Footer';
+// import Footer from './Footer';
 
 // import page components
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 // TODO: do we need project here, or does that go inside Portfolio?
-import Project from './Project';
+// import Project from './Project';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 
