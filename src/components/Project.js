@@ -1,0 +1,1 @@
+// Use this component for each project in the portfolio section
