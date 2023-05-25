@@ -4,9 +4,7 @@
 import React, { useState } from 'react';
 
 // import permanent components
-// import Header from './Header';
-// TODO: do we need navigation here, or does that go inside Header.js?
-import Navigation from './Navigation';
+import Header from './Header';
 // import Footer from './Footer';
 
 // import page components
@@ -39,7 +37,8 @@ export default function PortfolioContainer() {
   return (
     <div>
       {/* We are passing the currentPage from state and the function to update it */}
-      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* <Navigation currentPage={currentPage} handlePageChange={handlePageChange} /> */}
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
     </div>
