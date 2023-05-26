@@ -2,7 +2,7 @@
 
 ![alt=portfolio-website-screenshot](./screenshot.PNG)
 
-Link to deployed application:
+Link to deployed application: https://etfruitninja.github.io/my-second-portfolio/
 
 ## Description
 
