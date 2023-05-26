@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 
 // import permanent components
 import Header from './Header';
-// import Footer from './Footer';
+import Footer from './Footer';
 
 // import page components
 import AboutMe from './pages/AboutMe';
@@ -41,6 +41,7 @@ export default function PortfolioContainer() {
       {/* <Navigation currentPage={currentPage} handlePageChange={handlePageChange} /> */}
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      <Footer />
     </div>
   );
 }
