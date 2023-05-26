@@ -52,9 +52,18 @@ function Contact() {
   };
 
   return (
-    <div>
-      <p>Contact Form</p>
-      <form className="form">
+    <div class="content">
+      <h1>Contact</h1>
+      <div id="contact-info">
+        <h4>Contact Info</h4>
+        <ul>
+          <li>Email address: jeffreyyehuw@gmail.com</li>
+          <li>Phone Number: 425.233.1650</li>
+        </ul>
+      </div>
+
+      <h4>Contact Form</h4>
+      <form className="form" id="contact-form">
         <input
           value={name}
           name="name"
@@ -75,6 +84,7 @@ function Contact() {
           onChange={handleInputChange}
           type="text"
           placeholder="message"
+          id="message-box"
         />
         <button type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
@@ -83,8 +93,6 @@ function Contact() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
-      <p>Email address: jeffreyyehuw@gmail.com</p>
-      <p>Phone Number: 425.233.1650 </p>
     </div>
   );
 }

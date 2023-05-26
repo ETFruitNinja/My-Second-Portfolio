@@ -7,7 +7,7 @@ export default function Project(props) {
     }
   
     return (
-      <div className="container">
+      <div className="container" class="project-card">
         <div className="card bacon" style={cardStyle}>
           <a href={props.link}>
           <img
@@ -15,7 +15,7 @@ export default function Project(props) {
             src={props.image}
             alt="Card cap"
           />
-          <div className="card-body">
+          <div className="card-body" class="exit-link">
           <h5 className="card-title">{props.name}</h5>
           </div>
           </a>

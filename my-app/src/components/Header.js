@@ -3,8 +3,8 @@ import Navigation from './Navigation';
 
 export default function Header({ currentPage, handlePageChange }) {
     return (
-      <div>
-        <h1>
+      <div id="header">
+        <h1 id="title">
             Jeffrey Yeh
         </h1>
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
