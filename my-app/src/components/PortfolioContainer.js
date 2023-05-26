@@ -35,7 +35,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div id="container">
+    <div>
       {/* We are passing the currentPage from state and the function to update it */}
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* <Navigation currentPage={currentPage} handlePageChange={handlePageChange} /> */}
