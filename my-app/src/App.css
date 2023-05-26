@@ -1,3 +1,11 @@
+:root {
+  --nomad: #BCB3A5;
+  --armadillo: #4F4B3C;
+  --mongoose: #BAA57B;
+  --sushi: #AAB43C;
+  --verdigris: #585C33;
+}
+
 .App {
   text-align: center;
 }
@@ -28,8 +36,65 @@
   color: #61dafb;
 }
 
+a {
+  color: var(--sushi) !important;
+  text-decoration: none !important;
+}
+
+.exit-link {
+  color: var(--verdigris);
+}
+
+#header {
+  background-color: var(--armadillo);
+}
+
+#title {
+  padding: 5px;
+  font-size: 48px;
+  color: var(--mongoose);
+}
+
+.content {
+  padding: 5px;
+  background-color: var(--nomad);
+}
+
 #about-photo {
-  width: 375px;
+  width: 365px;
+  height: auto;
+}
+
+.project-card {
+  padding-bottom: 15px;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#message-box {
+  height: 300px;
+  text-align: left;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#skills {
+  margin-top: 20px;
+}
+
+#footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--armadillo);
+}
+
+.icon {
+  width: 30px;
   height: auto;
 }
 
