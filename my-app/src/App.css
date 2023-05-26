@@ -81,6 +81,10 @@ a {
   padding-bottom: 0;
 }
 
+.nav-tabs .nav-link.active {
+  background-color: black;
+}
+
 #skills {
   margin-top: 20px;
 }
