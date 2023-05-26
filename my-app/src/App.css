@@ -28,8 +28,9 @@
   color: #61dafb;
 }
 
-.bacon {
-  background-color: yellow;
+#about-photo {
+  width: 375px;
+  height: auto;
 }
 
 @keyframes App-logo-spin {
