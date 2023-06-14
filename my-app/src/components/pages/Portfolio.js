@@ -23,9 +23,9 @@ const projects = [
     link: 'https://etfruitninja.github.io/weather-dashboard/',
   },
   {
-    name: 'Text Editor',
-    image: 'https://github.com/ETFruitNinja/Text-Editor/raw/main/screenshot.PNG',
-    link: 'https://jy-text-editor.herokuapp.com/',
+    name: 'Poké Trader',
+    image: 'https://github.com/lingeorge88/Poke_Trader/raw/main/assets/collection.PNG',
+    link: 'https://poketraderv1.herokuapp.com/',
   },
   {
     name: 'Group Calendar',
